@@ -1,0 +1,7 @@
+# Sample array
+array = [10, 20, 30, 40, 50]
+
+# Open file in write mode
+with open('output.txt', 'w') as file:
+    for item in array:
+        file.write(f"{item}\n")  # Write each item on a new line
